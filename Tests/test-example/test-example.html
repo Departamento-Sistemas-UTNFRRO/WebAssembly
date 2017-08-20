@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WASM Test Name</title>
+    <script src="../base-template/base.js" type="text/javascript"></script> 
+    <script>
+      var folder = 'test-example'
+      var filename = 'program'
+    </script> 
+    <script src="./program.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../base-template/styles.css">
+  </head>
+  <body>
+    <div class="main">
+      <button class="button" onclick='executeWebAssembly(folder, filename)'>Execute Web Assembly</button><br>
+      <button class="button" onclick='executeJS()'>Execute Javascript</button><br>
+      <button class="button" onclick='executeBoth(folder, filename)'>Execute Both</button><br><br>
+
+      <label>WebAssembly Result: <span id="WebAssemblyResult"></span></label><br>
+      <label>WebAssembly Exec. Time: <span id="WebAssemblyTime"></span></label><br>
+      <br>
+      <label>Javascript Result: <span id="JavaScriptResult"></span></label><br>
+      <label>Javascript Exec. Time: <span id="JavaScriptTime"></span></label><br>
+    </div>
+  </body>
+</html>
