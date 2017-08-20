@@ -1,6 +1,6 @@
 # UTN Web Assembly (Español)
 
-Este es el repositorio principal del grupo de investigación de la UTN FRRo (Argentina). El objetivo de este proytecto es documentar que tán eficiente es WASM en compración con JS y ASM.js
+Este es el repositorio principal del grupo de investigación de la UTN FRRo (Argentina). El objetivo de este proyecto es documentar que tán eficiente es WASM en compración con JS y ASM.js
 
 ## Tests
 
